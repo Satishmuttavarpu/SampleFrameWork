@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SampleTestFW"
-  s.version      = "0.0.1"
+  s.version      = “0.0.2”
   s.summary      = "A short description of SampleTestFW."
-  s.homepage     = "http://EXAMPLE/SampleTestFW"
+  s.homepage     = "https://github.com/Satishmuttavarpu/SampleFrameWork"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.license      = "MIT"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
  
 # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source       = { :git => "https://github.com/Satishmuttavarpu/SampleFrameWork.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Satishmuttavarpu/SampleFrameWork.git", :tag => "0.0.2" }
   s.ios.vendored_frameworks = 'SampleTestFW.framework'
   #s.dependency 'SomeOtherPod'
 
