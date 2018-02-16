@@ -17,6 +17,7 @@
 		2262DF41E603572791FC5C08145A3FC0 /* Pods-SampleTestFW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleTestFW-umbrella.h"; sourceTree = "<group>"; };
 		2E6E9D41FA9E989D5AF326D83F7270DB /* Pods-SampleTestFW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SampleTestFW.modulemap"; sourceTree = "<group>"; };
 		3565E49467FE63BB3657FAE353D52EB0 /* Pods-SampleTestFW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleTestFW.release.xcconfig"; sourceTree = "<group>"; };
+		398E6928CEC2E98353FB68FD0ADB4DED /* SampleTestFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SampleTestFW.framework; sourceTree = "<group>"; };
 		60C42F036FCF42F62D304AC56EE9E607 /* Pods-SampleTestFW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleTestFW-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C7E76B85781A094AA4711CD21C6AAE6 /* Pods_SampleTestFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleTestFW.framework; path = "Pods-SampleTestFW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F6851020965F2709D6D7C0F5E72AAF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF2CF8770424048E9966C24012392D9C /* SampleTestFW */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		723D0DF423C2EDBB426B5EA21BC1F5A8 /* Pods-SampleTestFW */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,19 +69,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				929291A38EFAA901E33C5D80398B9D8A /* Development Pods */,
+				07F6851020965F2709D6D7C0F5E72AAF /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				A18388656EB0588214A7E38D9030AF6A /* Products */,
 				937F9F6FAF9171992A82C1DEE23DDD0E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		929291A38EFAA901E33C5D80398B9D8A /* Development Pods */ = {
+		871002E42635CCBE1FBB27E1A671068B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E3B881725757D721D269D5BD7067910A /* SampleTestFW */,
+				398E6928CEC2E98353FB68FD0ADB4DED /* SampleTestFW.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		937F9F6FAF9171992A82C1DEE23DDD0E /* Targets Support Files */ = {
@@ -99,20 +108,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF2CF8770424048E9966C24012392D9C /* SampleTestFW */ = {
+			isa = PBXGroup;
+			children = (
+				871002E42635CCBE1FBB27E1A671068B /* Frameworks */,
+			);
+			name = SampleTestFW;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E3B881725757D721D269D5BD7067910A /* SampleTestFW */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SampleTestFW;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

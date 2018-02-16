@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
   s.source       = { :git => "https://github.com/Satishmuttavarpu/SampleFrameWork.git", :tag => "0.0.1" }
-  s.ios.vendored_frameworks = 'MySDK.framework'
+  s.ios.vendored_frameworks = 'SampleTestFW.framework'
   #s.dependency 'SomeOtherPod'
 
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }

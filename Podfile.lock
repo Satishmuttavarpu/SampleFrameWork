@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../SampleTestFW
 
 SPEC CHECKSUMS:
-  SampleTestFW: 94722fc942f22eb70b05dfbd383a51bf8bd91b7e
+  SampleTestFW: 3d4e4fd7bcd31c1620510ec447fb5e36c3dbb4ff
 
 PODFILE CHECKSUM: da56a0d8d30a4f92169f6ffc3820fe5bb9adcfc3
 
