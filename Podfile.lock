@@ -1,5 +1,5 @@
 PODS:
-  - SampleTestFW (0.0.1)
+  - SampleTestFW (0.0.3)
 
 DEPENDENCIES:
   - SampleTestFW (from `../SampleTestFW`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../SampleTestFW
 
 SPEC CHECKSUMS:
-  SampleTestFW: 4476bfa8fd017e0909748a00514fef6efc520f5c
+  SampleTestFW: effc4465828ebdce1be60d67b7e032ea74eb83c8
 
 PODFILE CHECKSUM: da56a0d8d30a4f92169f6ffc3820fe5bb9adcfc3
 

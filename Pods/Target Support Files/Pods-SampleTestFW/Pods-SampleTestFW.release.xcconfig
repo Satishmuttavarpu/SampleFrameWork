@@ -1,7 +1,8 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/.."
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SampleTestFW"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/SampleTestFW" $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SampleTestFW"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks' '@executable_path/../../Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/SampleTestFW"
 OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SampleTestFW"
 OTHER_LDFLAGS = $(inherited) -framework "SampleTestFW"
 PODS_BUILD_DIR = $BUILD_DIR
