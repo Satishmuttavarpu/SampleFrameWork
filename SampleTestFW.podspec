@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "SampleTestFW"
-  s.version      = “0.0.2”
+  s.version      = "0.0.2"
   s.summary      = "A short description of SampleTestFW."
   s.homepage     = "https://github.com/Satishmuttavarpu/SampleFrameWork"
 
