@@ -1,0 +1,16 @@
+PODS:
+  - SampleTestFW (0.0.1)
+
+DEPENDENCIES:
+  - SampleTestFW (from `../SampleTestFW`)
+
+EXTERNAL SOURCES:
+  SampleTestFW:
+    :path: ../SampleTestFW
+
+SPEC CHECKSUMS:
+  SampleTestFW: 94722fc942f22eb70b05dfbd383a51bf8bd91b7e
+
+PODFILE CHECKSUM: da56a0d8d30a4f92169f6ffc3820fe5bb9adcfc3
+
+COCOAPODS: 1.3.1
