@@ -1,5 +1,5 @@
 //
-//  MyFIle.swift
+//  MySDK.swift
 //  SampleTestFW
 //
 //  Created by Muttavarapu on 15/02/18.

@@ -1,0 +1,11 @@
+framework module SampleTestFW {
+  umbrella header "SampleTestFW.h"
+
+  export *
+  module * { export * }
+}
+
+module SampleTestFW.Swift {
+    header "SampleTestFW-Swift.h"
+    requires objc
+}
