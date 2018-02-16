@@ -13,7 +13,7 @@
     "tag": "0.0.1"
   },
   "ios": {
-    "vendored_frameworks": "MySDK.framework"
+    "vendored_frameworks": "SampleTestFW.framework"
   },
   "pod_target_xcconfig": {
     "SWIFT_VERSION": "3"
